@@ -9,7 +9,7 @@ import joblib
 model = joblib.load('wine_quality_model.pkl')  # Ensure the model file is present
 
 # Load the dataset
-data = pd.read_csv(r"E:\STAT BRIO\Python\STUDENT\COMPLETED\Quality of Wine\Dataset\WineQT.csv")  # Replace with your actual dataset file name
+data = pd.read_csv(r"WineQT.csv")  # Replace with your actual dataset file name
 
 # Set up the page configurations
 st.set_page_config(
